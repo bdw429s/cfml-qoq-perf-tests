@@ -1,0 +1,9 @@
+{
+    "app":{
+        "cfengine":"boxlang"
+    },
+    "name":"qoqperftestsboxlang",
+    "jvm":{
+        "javaVersion":"openjdk21"
+    }
+}
