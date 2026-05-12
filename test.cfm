@@ -205,5 +205,10 @@ order by department, name"
 				<td>#encodeForHTML( result.error )#</td>
 			</tr>
 		</cfloop>
+		<tr>
+			<td><strong>Total</strong></td>
+			<td><strong>#results.reduce( (acc, r) => acc + ( isNumeric( r.time ) ? r.time : 0 ), 0 )# ms</strong></td>
+			<td></td>
+		</tr>
 	</table>
 </cfoutput>

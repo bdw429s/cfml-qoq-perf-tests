@@ -2,5 +2,8 @@
     "app":{
         "cfengine":"adobe"
     },
-    "name":"qoqperftestsadobe"
+    "name":"qoqperftestsadobe",
+    "jvm":{
+        "javaVersion":"openjdk21"
+    }
 }
